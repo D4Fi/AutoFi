@@ -23,7 +23,7 @@ class Input:
 		os.system(f'input draganddrop {x1} {y1} {x2} {y2} {duration}')
 	
 	def press():
-		pass 
+		pass
 	
 	def  roll(dx: str, dy: str)-> None:
 		os.system(f'input roll {dx} {dy}')
