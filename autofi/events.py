@@ -40,3 +40,6 @@ class Screen:
 
 	def record_stop():
 		pass
+		
+	def record_stop():
+		pass
