@@ -35,9 +35,6 @@ class Screen:
 	def record(save_record_path):
 		os.system(f'screenrecord {save_record_path}')
 	
-	def record_stop():
-		pass
-
 		
 	def record_stop():
 		pass
