@@ -1,8 +1,5 @@
 import os, sys
 
-
-
-
 class Input:
 	def __init__(self):
 		pass
@@ -34,4 +31,3 @@ class Screen:
 	
 	def record(save_record_path):
 		os.system(f'screenrecord {save_record_path}')
-
