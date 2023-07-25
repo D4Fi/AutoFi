@@ -1,4 +1,4 @@
-import os, sys
+import os, sys 
 
 class Input:
 	def __init__(self):
