@@ -6,7 +6,7 @@ class Input:
 	
 	def text(text: str)-> None: 
 		os.system(f'input text {text}')
-	
+	 
 	def keyevent(key_code: str)-> None:
 		os.system(f'input keyevent {key_code}')
 	
