@@ -18,7 +18,7 @@ class Input:
 	
 	def draganddrop(x1: str, y1: str, x2: str, y2: str, duration: str)-> None:
 		os.system(f'input draganddrop {x1} {y1} {x2} {y2} {duration}')
-	
+	 
 	def press():
 		pass
 	
