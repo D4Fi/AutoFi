@@ -26,7 +26,7 @@ class Input:
 		os.system(f'input roll {dx} {dy}')
  
   
-
+ 
 class Screen:
 	def cap(save_cap_path):
 		os.system(f'screencap {save_cap_path}')
