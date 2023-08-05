@@ -9,6 +9,7 @@ class Input:
 	 
 	def keyevent(key_code: str)-> None:
 		os.system(f'input keyevent {key_code}')
+		
 	
 	def tap(x: str, y: str)-> None:
 		os.system(f'input tap {x} {y}')
