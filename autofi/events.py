@@ -4,7 +4,7 @@ class Input:
 	def __init__(self):
 		pass
 	     
-	def text(text: str)-> None: 
+	def text(text: str)-> None:
 		os.system(f'input text {text}')
 	 
 	def keyevent(key_code: str)-> None:
@@ -24,8 +24,7 @@ class Input:
 	
 	def  roll(dx: str, dy: str)-> None:
 		os.system(f'input roll {dx} {dy}')
- 
-   
+
   
 class Screen:
 	def cap(save_cap_path):
@@ -33,3 +32,12 @@ class Screen:
 	
 	def record(save_record_path):
 		os.system(f'screenrecord {save_record_path}')
+
+
+
+
+
+
+
+
+
