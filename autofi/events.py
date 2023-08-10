@@ -9,7 +9,6 @@ class Input:
 	 
 	def keyevent(key_code: str)-> None:
 		os.system(f'input keyevent {key_code}')
-		
 	
 	def tap(x: str, y: str)-> None:
 		os.system(f'input tap {x} {y}')
@@ -26,19 +25,9 @@ class Input:
 	def  roll(dx: str, dy: str)-> None:
 		os.system(f'input roll {dx} {dy}')
 
-  
 class Screen:
 	def cap(save_cap_path):
 		os.system(f'screencap {save_cap_path}')
 	
 	def record(save_record_path):
 		os.system(f'screenrecord {save_record_path}')
-
-
-
-
-
-
-
-
-
