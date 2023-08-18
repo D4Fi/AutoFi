@@ -21,6 +21,7 @@ class Input:
 	 
 	def press(): 
 		pass
+
 	
 	def  roll(dx: str, dy: str)-> None:
 		os.system(f'input roll {dx} {dy}')
