@@ -3,7 +3,7 @@ import os, sys
 class Input:
 	def __init__(self):
 		pass
-	     
+		
 	def text(text: str)-> None:
 		os.system(f'input text {text}')
 	 
